@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+    padding: 0;
+    font-size: 15pt;
+    /* font-family: 'robotoblack'; */
+}
+
+.br {
+    display: block;
+    width: 100%;
+    float: left;
+    clear: both;
+
+}
+
+#controllers {
+    width: 100%;
+    float: left;
+    clear: both;
+}
+#mainContainer {
+    display: block;
+    float: left;
+    width: calc( 25% - 40px );
+    margin-top: 30px;
+    padding: 0 20px;
+
+}
+#mainContainer > div {
+    width: calc( 100% - 32px );
+    border: solid 1px;
+    padding: 10px 15px;
+    margin-bottom: 30px;
+    float: left;
+    clear: both;
+    background-color: rgba(187,172,172,0.5);
+}
+
+#container {
+    width: 75%;
+    display: block;
+    float: left;
+    height: 900px;
+    margin-top: 30px;
+}
+
+#mainScene {
+    width: 100%;
+    height: 100%;
+}
+
+.outputs {
+    display: inline;
+    margin: 5px;
+    border: solid 1px;
+    width: 2.5em;
+    padding-left: 5px;
+}
+
+.labels {
+    text-align: left;
+    display: inline;
+    width: calc( 100% - 10px );
+    float: left;
+    padding: 10px 5px;
+    border: solid 1px;
+    clear: both;
+}
+
+#queries label {
+    display: block;
+    float: left;
+    clear: both;
+    margin-bottom: 5px;
+}
+
+
+button {
+    border: none;
+    background: rgba(16, 35, 72,0.5);
+    padding: 5px 10px;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    display: block;
+    margin-top: 10px;
+}
+
+.roomFrom {
+    background: rgba(16, 35, 72,0.5);
+    border: none;
+    color: white;
+    width: 1ex;
+    padding: 0.5ex 1ex;
+    margin-right: 80px;
+}
+
+button.copy {
+    float: left;
+}
+
+button.clear {
+    float: right;
+}
+
+.acquire{
+    float: right;
+    clear: both;
+}
+
+#fromTo {
+    display: block;
+    clear: both;
+    float: left;
+    width: 100%;
+    border-top: solid 1px;
+    padding-top:10px;
+    margin-top: 15px;
+}
+
+/* #fromTo > label { */
+/*     float: left; */
+/*     clear: both; */
+
+/* } */
+/* .roomFrom, .roomTo { */
+/*     float: left; */
+/*     clear: both; */
+/*     top: -25px; */
+/*     left: 85px; */
+/* } */
+
+
+.queryHolder {
+    display: block;
+    width: 100%;
+    float: left;
+    clear: both;
+    margin-bottom: 15px;
+}
+
+.rotationHolder {
+    padding-top: 10px;
+    border-top: 1px solid;
+
+}
+
+
+.rotation {
+    margin-top: 20px;
+
+}
+#roomChoice {
+
+    float: right;
+    display: block;
+    
+
+}
+
+
+#queries textarea {
+    border: solid 1px;
+    width: calc( 100% - 2px );
+    resize: none;
+    float: left;
+    margin-bottom: 5px;
+    clear: both;
+
+}
+
+
+select {
+    background: rgba(16, 35, 72,0.5);
+    border: none;
+    color: white;
+    padding: 3px 5px;
+    clear: both;
+    display: inline-block;
+
+}
